@@ -1,0 +1,39 @@
+1.Python 3.0发布，它并不完全兼容之前的Python代码，不过因为目前还有不少公司在项目和运维中使用Python 2.x版本，所以Python 3.x的很多新特性后来也被移植到Python 2.6/2.7版本中。
+2.Python的版本号分为三段，形如A.B.C：
+  A表示大版本号，一般当整体重写，或出现不向后兼容的改变时，增加A；
+  B表示功能更新，出现新功能时增加B；
+  C表示小的改动（例如：修复了某个Bug），只要有修改就增加C。
+3.Python的优点：
+  代码规范程度高，可读性强；
+  开放源代码，拥有强大的社区和生态圈，尤其是在数据分析和机器学习领域；
+  对两种主流的编程范式（面向对象编程和函数式编程）都提供了支持；
+4.Python的缺点：
+  执行效率稍低，对执行效率要求高的部分可以由其他语言（如：C、C++）编写；
+  代码无法加密，但是现在很多公司都不销售卖软件而是销售服务，这个问题会被弱化；
+  在开发时可以选择的框架太多（如Web框架就有100多个），有选择的地方就有错误。
+5.Python应用领域：
+  Web应用后端开发、云基础设施建设、DevOps、网络数据采集（爬虫）、自动化测试、数据分析、机器学习等领域。
+6.pycharm专业版安装（略）
+  https://github.com/jackfrued/Python-100-Days/blob/master/%E7%8E%A9%E8%BD%ACPyCharm.md
+7.>>> import this
+    The Zen of Python, by Tim Peters
+
+    Beautiful is better than ugly.
+    Explicit is better than implicit.
+    Simple is better than complex.
+    Complex is better than complicated.
+    Flat is better than nested.
+    Sparse is better than dense.
+    Readability counts.
+    Special cases aren't special enough to break the rules.
+    Although practicality beats purity.
+    Errors should never pass silently.
+    Unless explicitly silenced.
+    In the face of ambiguity, refuse the temptation to guess.
+    There should be one-- and preferably only one --obvious way to do it.
+    Although that way may not be obvious at first unless you're Dutch.
+    Now is better than never.
+    Although never is often better than *right* now.
+    If the implementation is hard to explain, it's a bad idea.
+    If the implementation is easy to explain, it may be a good idea.
+    Namespaces are one honking great idea -- let's do more of those!
