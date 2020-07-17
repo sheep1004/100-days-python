@@ -33,8 +33,16 @@
   is 、is not	身份运算符
   in、 not in	成员运算符
   not or and	逻辑运算符
+8.优先级： 在不加括号时候, and优先级大于or
+  a = "heaven"
+  b = "hell"
+  c = True and a or b
+  print(c) # heaven
+  d = False and a or b
+  print(d) # hell
   
-  
+  解析：
+  表达式从左往右运算，1和"heaven"做and的结果是"heaven"，再与"hell"做or的结果是"heaven"；0和"heaven"做and的结果是0，再与"hell"做or的结果是"hell"。
   
   
   
