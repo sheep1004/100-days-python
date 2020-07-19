@@ -12,4 +12,10 @@
   c.while循环:
     通过一个能够产生或转换出bool值的表达式来控制循环，表达式的值为True则继续循环；表达式的值为False则结束循环.
     break跳出循环，continue跳出本次循环、进入下一次循环。
-    
+3. print用法：
+  https://www.runoob.com/w3cnote/python3-print-func-b.html
+  a.print 会自动在行末加上回车, 如果不需回车，只需在 print 语句的结尾添加一个逗号 , 并设置分隔符参数 end，就可以改变它的行为。
+                  for i in range(0,6):
+                      print(i, end=" ")#0 1 2 3 4 5
+                  print()#换行
+  b.python 3.x版本中使用print()输出带括号，print('\n')默认空两行；
